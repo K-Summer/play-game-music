@@ -20,14 +20,13 @@ const sounds = {
     "b": document.getElementById("sound_b"),
     "n": document.getElementById("sound_n"),
     "m": document.getElementById("sound_m"),
-    // 添加其他按键和音效
 };
 
 document.addEventListener("keydown", function (event) {
     const key = event.key.toLowerCase();
 
     if (key in sounds) {
-        sounds[key].currentTime = 0; // 播放前重置音频时间
+        sounds[key].currentTime = 0;
         sounds[key].play();
     }
 });
