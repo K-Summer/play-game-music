@@ -1,3 +1,4 @@
+//按钮的动画效果
 document.addEventListener("keydown", function (event) {
     var divId;
     switch (event.key) {
@@ -64,10 +65,75 @@ document.addEventListener("keydown", function (event) {
         case "m":
             divId = "m";
             break;
+
+        case "Q":
+            divId = "Q";
+            break;
+        case "W":
+            divId = "W";
+            break;
+        case "E":
+            divId = "E";
+            break;
+        case "R":
+            divId = "R";
+            break;
+        case "T":
+            divId = "T";
+            break;
+        case "Y":
+            divId = "Y";
+            break;
+        case "U":
+            divId = "U";
+            break;
+        case "A":
+            divId = "A";
+            break;
+        case "S":
+            divId = "S";
+            break;
+        case "D":
+            divId = "D";
+            break;
+        case "F":
+            divId = "F";
+            break;
+        case "G":
+            divId = "G";
+            break;
+        case "H":
+            divId = "H";
+            break;
+        case "J":
+            divId = "J";
+            break;
+        case "Z":
+            divId = "Z";
+            break;
+        case "X":
+            divId = "X";
+            break;
+        case "C":
+            divId = "C";
+            break;
+        case "V":
+            divId = "V";
+            break;
+        case "B":
+            divId = "B";
+            break;
+        case "N":
+            divId = "N";
+            break;
+        case "M":
+            divId = "M";
+            break;
         default:
             return;
     }
-    document.getElementById(divId).style.backgroundColor = "#7e3131";
+    document.getElementById(divId).style.backgroundColor = "#c7897e";
+    document.getElementById(divId).style.border = "2px solid #ff0000";
 });
 
 document.addEventListener("keyup", function (event) {
@@ -136,8 +202,74 @@ document.addEventListener("keyup", function (event) {
         case "m":
             divId = "m";
             break;
+
+        case "Q":
+            divId = "Q";
+            break;
+        case "W":
+            divId = "W";
+            break;
+        case "E":
+            divId = "E";
+            break;
+        case "R":
+            divId = "R";
+            break;
+        case "T":
+            divId = "T";
+            break;
+        case "Y":
+            divId = "Y";
+            break;
+        case "U":
+            divId = "U";
+            break;
+        case "A":
+            divId = "A";
+            break;
+        case "S":
+            divId = "S";
+            break;
+        case "D":
+            divId = "D";
+            break;
+        case "F":
+            divId = "F";
+            break;
+        case "G":
+            divId = "G";
+            break;
+        case "H":
+            divId = "H";
+            break;
+        case "J":
+            divId = "J";
+            break;
+        case "Z":
+            divId = "Z";
+            break;
+        case "X":
+            divId = "X";
+            break;
+        case "C":
+            divId = "C";
+            break;
+        case "V":
+            divId = "V";
+            break;
+        case "B":
+            divId = "B";
+            break;
+        case "N":
+            divId = "N";
+            break;
+        case "M":
+            divId = "M";
+            break;
         default:
             return;
     }
-    document.getElementById(divId).style.backgroundColor = "#ffff";
+    document.getElementById(divId).style.backgroundColor = "#ecdcda";
+    document.getElementById(divId).style.border = "2px dashed #076904";
+
 });

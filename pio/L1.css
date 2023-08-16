@@ -1,39 +1,99 @@
-body{
+/* 美化界面 */
+body {
     margin: 0;
     padding: 0;
-    background: rgba(34, 61, 66, 0.788);
+    background: rgb(52, 119, 158);
     text-align: center;
-    margin: 18% auto 0px;
+    margin: 5% auto;
 }
 
-.box{
+.box {
+    margin: 50px;
+    height: 100%;
+    width: 53.5%;
     display: inline-block;
-    background-color: rgba(128, 65, 128, 0.4);
+    background-color: rgb(201, 207, 118);
     border-radius: 25px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.658);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.box1 {
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .key {
     display: inline-block;
     margin: 15px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.658);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.527);
     border-radius: 50px;
     background-color: #ecdcda;
-    opacity: 0.8;
-    border: 2px dashed #076904;
+    border: 2px dashed #004b58;
 }
 
 .key:hover {
     cursor: pointer;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.658);
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.65);
     border-radius: 50px;
-    background-color: #7e3131;
-    border: 2px dashed #550404;
+    background-color: #ecdcda;
+    border: 2px dashed #ff0000;
 }
 
 .key img {
     display: block;
     width: 100px;
     height: 100px;
-    border-radius: 25px;
+    border-radius: 250px;
+}
+
+div {
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+div:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.521);
+}
+
+
+.keyboard {
+    background-color: rgb(36, 173, 143);
+    justify-content: center;
+    display: flex;
+    display: inline-block;
+}
+
+.key-row {
+    display: flex;
+    justify-content: center;
+}
+
+.ROW {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border: 2px solid #d6d6d6c4;
+    box-shadow: 4px 4px 4px #0a0a0aab;
+    background-color: #2e65a396;
+    /* backdrop-filter: blur(5px); */
+    color: #23c7ac;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.ROW:hover {
+    cursor: pointer;
+    transform: translateY(4px);
+    box-shadow: 1px 1px 2px #000000;
+    background-color: #831f1f3d;
+    color: #1bd6ae;
 }
