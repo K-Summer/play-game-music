@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>风花琴</title>
-    <link rel="icon" href="./icons/keys/wid icons/mi.svg">
-
+    <title>仿风花琴</title>
+    <link rel="icon" href="./icons/rounded.png">
     <link rel="stylesheet" href="pio/L1.css">
 </head>
 
 <body>
 
     <div class="box">
-        <P></P>
         <div class="box1">
             <div class="key" id="q">
                 <img src="icons/keys/old icons/do.svg" alt="">
@@ -46,7 +44,7 @@
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box1">
             <div class="key" id="a">
                 <img src="icons/keys/old icons/do.svg" alt="">
                 <audio src="music/D1/7.mp3" id="sound_a"></audio>
@@ -76,7 +74,8 @@
                 <audio src="music/D1/13.mp3" id="sound_j"></audio>
             </div>
         </div>
-        <div class="box3">
+
+        <div class="box1">
             <div class="key" id="z">
                 <img src="icons/keys/old icons/do.svg" alt="">
                 <audio src="music/D1/14.mp3" id="sound_z"></audio>
@@ -106,46 +105,41 @@
                 <audio src="music/D1/20.mp3" id="sound_m"></audio>
             </div>
         </div>
-        <p></p>
     </div>
+
     <div class="keyboard">
         <div class="key-row">
-            <div class="ROW">Q</div>
-            <div class="ROW">W</div>
-            <div class="ROW">E</div>
-            <div class="ROW">R</div>
-            <div class="ROW">T</div>
-            <div class="ROW">Y</div>
-            <div class="ROW">U</div>
-            <div class="ROW">I</div>
-            <div class="ROW">O</div>
-            <div class="ROW">P</div>
+            <div class="ROW" id="Z">Z</div>
+            <div class="ROW" id="X">X</div>
+            <div class="ROW" id="C">C</div>
+            <div class="ROW" id="V">V</div>
+            <div class="ROW" id="B">B</div>
+            <div class="ROW" id="N">N</div>
+            <div class="ROW" id="M">M</div>
+
+            <div class="ROW" id="A">A</div>
+            <div class="ROW" id="S">S</div>
+            <div class="ROW" id="D">D</div>
+            <div class="ROW" id="F">F</div>
+            <div class="ROW" id="G">G</div>
+            <div class="ROW" id="H">H</div>
+            <div class="ROW" id="J">J</div>
+
+            <div class="ROW" id="Q">Q</div>
+            <div class="ROW" id="W">W</div>
+            <div class="ROW" id="E">E</div>
+            <div class="ROW" id="R">R</div>
+            <div class="ROW" id="T">T</div>
+            <div class="ROW" id="Y">Y</div>
+            <div class="ROW" id="U">U</div>
         </div>
-        <div class="key-row">
-            <div class="ROW">A</div>
-            <div class="ROW">S</div>
-            <div class="ROW">D</div>
-            <div class="ROW">F</div>
-            <div class="ROW">G</div>
-            <div class="ROW">H</div>
-            <div class="ROW">J</div>
-            <div class="ROW">K</div>
-            <div class="ROW">L</div>
-        </div>
-        <div class="key-row">
-            <div class="ROW">Z</div>
-            <div class="ROW">X</div>
-            <div class="ROW">C</div>
-            <div class="ROW">V</div>
-            <div class="ROW">B</div>
-            <div class="ROW">N</div>
-            <div class="ROW">M</div>
-        </div>
+        <p>当前时间：<span id="当前时间"></span></p>
     </div>
 
     <script src="./pio/an.js"></script>
     <script src="./pio/J1.js"></script>
-    <script src="./pio/yinfu.js"></script>
+    <script src="./pio/time.js"></script>
+    <!-- <script src="./pio/yinfu.js"></script> -->
 
 </body>
 
